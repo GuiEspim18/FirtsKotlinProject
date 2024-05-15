@@ -5,4 +5,6 @@ fun main() {
     println(name);
     var age: Byte = 22;
     println(age);
+    val pi = 3.14; // constant
+    println(pi);
 }
