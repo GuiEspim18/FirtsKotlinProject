@@ -3,4 +3,6 @@ fun main() {
     println(name);
     name = "Guilherme";
     println(name);
+    var age: Byte = 22;
+    println(age);
 }
