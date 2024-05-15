@@ -7,4 +7,8 @@ fun main() {
     println(age);
     val pi = 3.14; // constant
     println(pi);
+    var text: Byte = 10;
+    println(text);
+    text = 127;
+    println(Byte.MAX_VALUE);
 }
