@@ -3,7 +3,7 @@ fun main() {
     println(name);
     name = "Guilherme";
     println(name);
-    var age: Byte = 22;
+    val age: Byte = 22;
     println(age);
     val pi = 3.14; // constant
     println(pi);
