@@ -40,10 +40,16 @@ fun main(args: Array<String>) {
     println(2 <= 5);
     println(2 >= 5);*/
 
-    println(2 > 3 && 5 < 4);
+    /*println(2 > 3 && 5 < 4);
     println(2 < 3 && 5 < 4);
     println(2 < 3 && 5 > 4);
     println(2 < 3 && 5 > 4 && 1 != 1);
-    println(2 < 3 && 5 > 4 && 1 != 10);
+    println(2 < 3 && 5 > 4 && 1 != 10);*/
+
+    println(2 > 3 || 5 < 4);
+    println(2 < 3 || 5 < 4);
+    println(2 < 3 || 5 > 4);
+    println(2 < 3 || 5 > 4 || 1 != 1);
+    println(2 < 3 || 5 > 4 || 1 != 10);
 
 }
