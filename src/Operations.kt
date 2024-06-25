@@ -31,13 +31,19 @@ fun main(args: Array<String>) {
     a %= 2;
     println("Resto de divisão composta $a"); */
 
-    println(2 > 5);
+    /*println(2 > 5);
     println(2 < 5);
     println(2 == 5);
     println(2 == 2);
     println(2 != 2);
     println(2 != 5);
     println(2 <= 5);
-    println(2 >= 5);
+    println(2 >= 5);*/
+
+    println(2 > 3 && 5 < 4);
+    println(2 < 3 && 5 < 4);
+    println(2 < 3 && 5 > 4);
+    println(2 < 3 && 5 > 4 && 1 != 1);
+    println(2 < 3 && 5 > 4 && 1 != 10);
 
 }
