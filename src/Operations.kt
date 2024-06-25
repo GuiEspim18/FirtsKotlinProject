@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    var a = 10;
+    /* var a = 10;
     val b = 20;
     var c = a + b;
     println("Soma $c");
@@ -29,6 +29,13 @@ fun main(args: Array<String>) {
     println("Multiplicação composta $a");
 
     a %= 2;
-    println("Resto de divisão composta $a");
+    println("Resto de divisão composta $a"); */
+
+    println(2 > 5);
+    println(2 < 5);
+    println(2 == 5);
+    println(2 == 2);
+    println(2 != 2);
+    println(2 != 5);
 
 }
