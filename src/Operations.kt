@@ -37,5 +37,7 @@ fun main(args: Array<String>) {
     println(2 == 2);
     println(2 != 2);
     println(2 != 5);
+    println(2 <= 5);
+    println(2 >= 5);
 
 }
