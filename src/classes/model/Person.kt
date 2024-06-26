@@ -10,13 +10,13 @@ open class Person {
     public var birthdate: LocalDate = LocalDate.of(2002, 3, 13);
     public var weight: Int = 56;
     public var height: Double = 1.72;
-    private val age: Int
+    public val age: Int
         get() {
             return Period.between(birthdate, LocalDate.now()).years;
         }
 
     // Methods
-    public fun getData() {
+    open fun getData() {
         println("Name: $name");
         println("Birthdate: $birthdate");
         println("Weight: $weight");
