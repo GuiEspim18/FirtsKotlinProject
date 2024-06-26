@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-//    val nums: List<Int> = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9);
+    val nums: List<Int> = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9);
 //    val pairs: List<Int> = nums.filter {
 //        it % 2 == 0;
 //    };
@@ -17,4 +17,15 @@ fun main(args: Array<String>) {
         it.uppercase();
     };
     println(fruitsUpper);
+
+    println("---- Utilizando o reduce ----");
+
+    // current -> current number
+    // next -> next number
+    val sum: Int = nums.reduce { current, next ->
+        current + next
+    };
+
+    print(sum);
+
 }
